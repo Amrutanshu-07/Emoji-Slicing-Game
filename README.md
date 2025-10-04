@@ -32,20 +32,4 @@ Slice the negative emojis to score points, but avoid slicing positive emojis to 
  3. Run the game:
   python emoji_slice.py
   
-## Controls
 
- 1. Mouse Left Click → Slice emojis
-
- 2. ESC → Pause / Resume the game
-
-# Scoring & Mechanics
-
- 1. Slice a negative emoji → +1 point
-
- 2. Achieve combos (3, 5 slices) → Bonus points and messages
-
- 3. Slice a positive emoji → -1 point and lose a life
-
- 4. Game ends when all lives are lost
-
-# Make sure you have **Python 3.8+** installed.
