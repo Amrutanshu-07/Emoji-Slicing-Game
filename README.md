@@ -21,32 +21,31 @@ Slice the negative emojis to score points, but avoid slicing positive emojis to 
 ---
 
 ## Installation
+ 1. Clone the repository:
+  ```bash
+  git clone https://github.com/Amrutanshu-07/Emoji-Slicing-Game.git
+  cd Emoji-Slicing-Game
 
-Make sure you have **Python 3.8+** installed.
-
-1. Clone the repository:
-```bash
-git clone https://github.com/Amrutanshu-07/Emoji-Slicing-Game.git
-cd Emoji-Slicing-Game
-
-2. Install dependencies:
+ 2. Install dependencies:
   pip install pygame
 
-3. Run the game:
+ 3. Run the game:
   python emoji_slice.py
+  
+## Controls
 
-# Controls
+ 1. Mouse Left Click → Slice emojis
 
-Mouse Left Click → Slice emojis
-
-ESC → Pause / Resume the game
+ 2. ESC → Pause / Resume the game
 
 # Scoring & Mechanics
 
-Slice a negative emoji → +1 point
+ 1. Slice a negative emoji → +1 point
 
-Achieve combos (3, 5 slices) → Bonus points and messages
+ 2. Achieve combos (3, 5 slices) → Bonus points and messages
 
-Slice a positive emoji → -1 point and lose a life
+ 3. Slice a positive emoji → -1 point and lose a life
 
-Game ends when all lives are lost
+ 4. Game ends when all lives are lost
+
+# Make sure you have **Python 3.8+** installed.
